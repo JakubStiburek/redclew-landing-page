@@ -13,16 +13,26 @@
   </head>
   <body class="font-inter bg-rc-beige text-rc-black">
     <header
-      class="w-full sm:w-sm md:w-md lg:w-lg xl:w-xl 2xl:w-2xl h-max mx-auto p-5 sticky top-0"
+      class="w-full sm:w-sm md:w-md lg:w-lg xl:w-xl 2xl:w-2xl h-max mx-auto p-5 sticky top-0 z-3"
     >
       <div class="flex gap-1 text-md items-center justify-center">
         <img src="./rc_logo_transparent.png" class="w-15" />
         <h1><span class="text-rc-red font-bold">Red</span>Clew</h1>
       </div>
     </header>
-    <main class="w-full sm:w-sm md:w-md lg:w-lg xl:w-xl 2xl:w-2xl h-max m-auto">
+    <main
+      class="w-full sm:w-sm md:w-md lg:w-lg xl:w-xl 2xl:w-2xl h-max m-auto relative"
+    >
+      <div class="flex justify-center items-center">
+        <img
+          src="./src/illustration.svg"
+          class="absolute top-0"
+          width="372px"
+          height="372px"
+        />
+      </div>
       <div class="flex flex-col gap-15">
-        <div class="w-full h-100 flex items-center justify-center"></div>
+        <div class="h-70"></div>
         <div
           class="w-full rounded-3xl bg-rc-grey shadow-xl flex flex-col items-center justify-start gap-5 p-5"
         >
